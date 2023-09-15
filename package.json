@@ -70,5 +70,10 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.4.0",
     "webpack": "^5.88.2"
-  }
+  },
+  "main": "/dist/index.js",
+  "files": [
+    "/dist",
+    "package.json"
+  ]
 }
