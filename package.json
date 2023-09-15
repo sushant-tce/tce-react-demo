@@ -73,6 +73,6 @@
   },
   "main": "/dist/index.js",
   "files": [
-    "/dist/index.js"
+    "dist/**/*"
   ]
 }
