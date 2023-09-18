@@ -6,12 +6,10 @@ interface CustomButtonProps {
   onClick: () => void;
 }
 
-const CustomButton: React.FC<CustomButtonProps> = ({ label, onClick }) => {
+export default function CustomButton({ label, onClick }: CustomButtonProps) {
   return (
     <Button variant="contained" color="primary" onClick={onClick}>
       {label}
     </Button>
   );
-};
-
-export default CustomButton;
+}
